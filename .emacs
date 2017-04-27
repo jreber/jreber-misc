@@ -12,8 +12,9 @@
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize) ;; You might already have this line
+(package-initialize)
 
+;(package-refresh-contents)
 (defvar my-packages '(paredit
 		      projectile
 		      clojure-mode
@@ -44,9 +45,6 @@
 ; Disable start splash screen
 (setq inhibit-splash-screen t)
 
-; Allow searching when switching buffers; useful with things like 'buffer1' and 'buffer2'
-; (iswitchb-mode 1)
-
 ; Goto line
 (global-set-key (kbd "M-g") 'goto-line)
 
@@ -59,6 +57,7 @@
 
 (setq line-number-mode t)
 (setq column-number-mode t)
+(delete-selection-mode 1)
 
 ;; Use Shift + Arrow Key to move between multiple windows
 (global-set-key (kbd "C-c <left>")  'windmove-left)
@@ -68,28 +67,46 @@
 
 ;; Clojure stuff
 (show-paren-mode 1)
-(paredit-mode 1)
-(add-hook 'cider-repl-mode-hook #'paredit-mode)
+(add-hook 'clojure-mode-hook #'paredit-mode)
+;(paredit-mode 1)
+;(add-hook 'cider-repl-mode-hook #'paredit-mode)
 ;;(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)
 
 ;; ac-cider
-(require 'ac-cider)
-(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
-(add-hook 'cider-mode-hook 'ac-cider-setup)
-(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
-(eval-after-load "auto-complete"
-  '(progn
-     (add-to-list 'ac-modes 'cider-mode)
-     (add-to-list 'ac-modes 'cider-repl-mode)))
+;(require 'ac-cider)
+;(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
+;(add-hook 'cider-mode-hook 'ac-cider-setup)
+;(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
+;(eval-after-load "auto-complete"
+;  '(progn
+;     (add-to-list 'ac-modes 'cider-mode)
+;     (add-to-list 'ac-modes 'cider-repl-mode)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (tango-dark))))
+ '(custom-enabled-themes (quote (tango-dark)))
+ '(display-time-24hr-format t)
+ '(display-time-day-and-date t)
+ '(nrepl-sync-request-timeout 100)
+ '(package-selected-packages
+   (quote
+    (clojure-cheatsheet clojure-mode json-reformat markdown-mode projectile paredit ac-cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;(cider-auto-test-mode 1)
+
+(autoload 'markdown-mode "markdown-mode"
+   "Major mode for editing Markdown files" t)
+;(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(setq cider-cljs-lein-repl "(do (use 'figwheel-sidecar.repl-api) (start-figwheel!) (cljs-repl))")
