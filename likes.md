@@ -17,6 +17,6 @@ turning my browser tab into a clumsy repo of things I lile. No more!
 * [The Value of Values](https://www.youtube.com/watch?v=-6BsiVyC1kM)
 
 ### Others
-* [3Blue1Brown, Anything by](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-* [CGPGrey, Anything by](https://www.youtube.com/user/CGPGrey)
+* [Anything by 3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+* [Anything by CGPGrey](https://www.youtube.com/user/CGPGrey)
 * [Narcissistic Design](https://www.youtube.com/watch?v=LEZv-kQUSi4), Stuart Halloway
