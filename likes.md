@@ -1,6 +1,6 @@
 # Articles and Videos I Like
-I have a tendency to keep articles I like constantly open in browser tabs,
-turning my browser tab into a clumsy repo of things I lile. No more!
+I have a tendency to keep articles I like permanently open in browser tabs,
+turning my browser into a clumsy repo of things I like. No more!
 
 ## Articles
 * [Finding the Energy to Work on Your Side Hustle](https://www.startups.co/articles/finding-the-energy-to-work-on-your-sidehustle?ref=quuu&utm_content=buffer98172&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
