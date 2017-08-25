@@ -5,6 +5,7 @@ turning my browser tab into a clumsy repo of things I lile. No more!
 ## Articles
 * [Finding the Energy to Work on Your Side Hustle](https://www.startups.co/articles/finding-the-energy-to-work-on-your-sidehustle?ref=quuu&utm_content=buffer98172&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 * [How Developers Stop Learning: Rise of the Expert Beginner](https://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+* [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.html)
 * [Why A Lifestyle Business Beats a Startup](https://bugfender.com/blog/why-a-lifestyle-business-beats-a-startup/)
 * [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
