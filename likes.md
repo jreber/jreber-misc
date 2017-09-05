@@ -5,7 +5,9 @@ turning my browser into a clumsy repo of things I like. No more!
 ## Articles
 * [Finding the Energy to Work on Your Side Hustle](https://www.startups.co/articles/finding-the-energy-to-work-on-your-sidehustle?ref=quuu&utm_content=buffer98172&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 * [How Developers Stop Learning: Rise of the Expert Beginner](https://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+* [Politics and the English Language](http://www.orwell.ru/library/essays/politics/english/e_polit/): An essay by George Orwell arguing against unthinking and muddled use of language, particularly as is used in politics. I find myself recalling this essay as I think about persuasion, writing code, and communicating my ideas.
 * [Processing Documents with Transducers](https://juxt.pro/blog/posts/xpath-in-transducers.html) *Specific to Clojure but it was very enlightening to see alternative ways to traverse documents.*
+* [Programming as Theory Building](http://pages.cs.wisc.edu/~remzi/Naur.pdf): Argues that programming is about devising a theory of the problem at hand and how that problem should be solved; the author contrasts this with the view that programming is about delivering code or other artifacts. The distinction seemss small but leads to interesting implications.
 * [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.html)
 * [Why A Lifestyle Business Beats a Startup](https://bugfender.com/blog/why-a-lifestyle-business-beats-a-startup/)
 * [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
