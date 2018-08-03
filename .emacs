@@ -17,15 +17,16 @@
 ;; Themes found on https://emacsthemes.com/
 ;(load-theme 'material t)
 
-(require 'package) ;; You might already have this line
-(add-to-list 'package-archives
-	     '("melpa" . "http://stable.melpa.org/packages/"))
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-
-
-;;(package-refresh-contents)
+(require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  (add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
 
@@ -137,7 +138,7 @@
  '(line-number-mode nil)
  '(package-selected-packages
    (quote
-    (projectile auto-complete clojure-mode web-mode json-reformat find-file-in-project company company-statistics which-key magit cider rainbow-delimiters paredit material-theme markdown-mode ac-cider))))
+    (company-restclient restclient projectile auto-complete clojure-mode web-mode json-reformat find-file-in-project company company-statistics which-key magit cider rainbow-delimiters paredit material-theme markdown-mode ac-cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
