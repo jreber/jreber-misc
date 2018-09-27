@@ -60,6 +60,8 @@
 (tool-bar-mode -1)
 (menu-bar-mode 0)
 (toggle-scroll-bar -1)
+(global-hl-line-mode +1)
+(global-linum-mode)
 
 ; Disable start splash screen
 (setq inhibit-splash-screen t)
@@ -87,6 +89,7 @@
 (setq-default indent-tabs-mode nil)
 (setq global-linum-mode t)
 (setq projectile-project-search-path '("~/projects/" "~/work/"))
+(add-to-list 'auto-mode-alist '("\\.http\\'" . restclient-mode))
 
 
 ; Set C-x C-b to ibuffer
@@ -109,15 +112,8 @@
 (add-hook 'cider-repl-mode-hook #'paredit-mode)
 ;(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)
 
-;; ac-cider
-(require 'ac-cider)
-(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
-(add-hook 'cider-mode-hook 'ac-cider-setup)
-(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
-(eval-after-load "auto-complete"
-  '(progn
-     (add-to-list 'ac-modes 'cider-mode)
-     (add-to-list 'ac-modes 'cider-repl-mode)))
+(comment
+ (add-to-list 'company-backends 'company-restclient))
 
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
@@ -138,7 +134,7 @@
  '(line-number-mode nil)
  '(package-selected-packages
    (quote
-    (company-restclient restclient projectile auto-complete clojure-mode web-mode json-reformat find-file-in-project company company-statistics which-key magit cider rainbow-delimiters paredit material-theme markdown-mode ac-cider))))
+    (cider-eval-sexp-fu restclient auto-complete clojure-mode web-mode json-reformat find-file-in-project company company-statistics which-key magit cider rainbow-delimiters paredit material-theme markdown-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
