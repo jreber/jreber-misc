@@ -32,10 +32,13 @@
 
 (comment
  (defvar my-packages '(paredit
-		       projectile
 		       clojure-mode
 		       cider
-		       ac-cider
+		       cider-eval-sexp-fu
+		       company
+		       find-file-in-project
+		       magit
+		       restclient
 		       material-theme
 		       web-mode))
 
