@@ -20,6 +20,8 @@ turning my browser into a clumsy repo of things I like. No more!
 * [Spec-ulation](https://www.youtube.com/watch?v=oyLBGkS5ICk)
 * [The Value of Values](https://www.youtube.com/watch?v=-6BsiVyC1kM)
 
+### Architecture
+* [[Twitter] Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/)
 ### Others
 * [Anything by 3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 * [Anything by CGPGrey](https://www.youtube.com/user/CGPGrey)
