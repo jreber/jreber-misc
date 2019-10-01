@@ -23,6 +23,7 @@ turning my browser into a clumsy repo of things I like. No more!
 ### Architecture
 * [[Twitter] Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/)
 ### Others
+* [Inventing on Principle](https://vimeo.com/36579366), by Bret Victor
 * [Anything by 3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 * [Anything by CGPGrey](https://www.youtube.com/user/CGPGrey)
 * [Narcissistic Design](https://www.youtube.com/watch?v=LEZv-kQUSi4), Stuart Halloway
