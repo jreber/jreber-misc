@@ -24,6 +24,7 @@ turning my browser into a clumsy repo of things I like. No more!
 * [[Twitter] Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/)
 ### Others
 * [Inventing on Principle](https://vimeo.com/36579366), by Bret Victor
+* [The Future of Programming](https://vimeo.com/71278954), by Bret Victor. Pretty good: great reminder of just how much of software was foreseen decades ago, and I like this quote: "The most dangerous thought that you can have as a creative person is to think that you know what you're doing. Because once you think you know what you're doing you stop looking around for other ways of doing things and you stop being able to see other ways of doing things. You become blind."
 * [Anything by 3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 * [Anything by CGPGrey](https://www.youtube.com/user/CGPGrey)
 * [Narcissistic Design](https://www.youtube.com/watch?v=LEZv-kQUSi4), Stuart Halloway
