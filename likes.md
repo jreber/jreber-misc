@@ -12,6 +12,7 @@ turning my browser into a clumsy repo of things I like. No more!
 * [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.html)
 * [Why A Lifestyle Business Beats a Startup](https://bugfender.com/blog/why-a-lifestyle-business-beats-a-startup/)
 * [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+* [My favourite Git commit](https://fatbusinessman.com/2019/my-favourite-git-commit) <--- this is how to write commit messages! I don't need you to tell me what you did; I need to know why you did it -- the context, the struggles, the learnings.
 
 ## Videos
 ### Rich Hickey
