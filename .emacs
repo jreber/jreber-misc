@@ -64,7 +64,7 @@
 (menu-bar-mode 0)
 (toggle-scroll-bar -1)
 (global-hl-line-mode +1)
-(global-linum-mode)
+(global-display-line-numbers-mode)
 
 ; Disable start splash screen
 (setq inhibit-splash-screen t)
