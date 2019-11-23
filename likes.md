@@ -24,7 +24,7 @@ turning my browser into a clumsy repo of things I like. No more!
 ### Architecture
 * [[Twitter] Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/)
 ### Others
-* [Inventing on Principle](https://vimeo.com/36579366), by Bret Victor
+* [Media for Thinking the Unthinkable](https://www.youtube.com/watch?v=oUaOucZRlmE), by Bret Victor. What needs to happen for us to build systems 2-3 orders of magnitude more complex than what we're capable of today? We must necessarily work to understand the systems we create. This talk suggests ways we can make tools to empower us to comprehend increasingly complex and abstract systems.
 * [The Future of Programming](https://vimeo.com/71278954), by Bret Victor. Pretty good: great reminder of just how much of software was foreseen decades ago, and I like this quote: "The most dangerous thought that you can have as a creative person is to think that you know what you're doing. Because once you think you know what you're doing you stop looking around for other ways of doing things and you stop being able to see other ways of doing things. You become blind."
 * [Anything by 3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 * [Anything by CGPGrey](https://www.youtube.com/user/CGPGrey)
