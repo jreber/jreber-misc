@@ -13,6 +13,7 @@ turning my browser into a clumsy repo of things I like. No more!
 * [Why A Lifestyle Business Beats a Startup](https://bugfender.com/blog/why-a-lifestyle-business-beats-a-startup/)
 * [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 * [My favourite Git commit](https://fatbusinessman.com/2019/my-favourite-git-commit) <--- this is how to write commit messages! I don't need you to tell me what you did; I need to know why you did it -- the context, the struggles, the learnings.
+* [DRY Is About Knowledge: Code duplication is not the issue](http://verraes.net/2014/08/dry-is-about-knowledge/): "Don't repeat yourself" is usually an excellent hueristic to find the abstractions missing from one's code, but it can be taken too far when some duplication exists by coincidence.
 
 ## Videos
 ### Rich Hickey
